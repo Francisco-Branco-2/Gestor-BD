@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Gestor de BD</string>
+
+    <!-- Ações -->
+    <string name="action_add">Adicionar exemplar</string>
+    <string name="action_add_folder">Adicionar coleção</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="action_stats">Estatísticas</string>
+    <string name="action_theme">Tema</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_edit_folder">Editar coleção</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_delete_folder">Eliminar coleção</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_pick_cover">Adicionar capa</string>
+    <string name="action_change_cover">Alterar capa</string>
+    <string name="action_remove_cover">Remover</string>
+    <string name="action_sort">Ordenar</string>
+    <string name="action_export">Exportar CSV</string>
+    <string name="action_discard">Descartar</string>
+
+    <!-- Tema -->
+    <string name="theme_system">Seguir o sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+
+    <!-- Lista, pesquisa e filtros -->
+    <string name="search_hint">Título, número, notas ou certificação</string>
+    <string name="filter_publisher_title">Editora</string>
+    <string name="filter_all_publishers">Todas as editoras</string>
+    <string name="filter_grade_title">Grau de conservação</string>
+    <string name="grade_filter_all">Todos os graus</string>
+    <string name="grade_filter_high">Grau 8.0 ou superior</string>
+    <string name="grade_filter_medium">Grau 5.0 – 7.5</string>
+    <string name="grade_filter_low">Grau inferior a 5.0</string>
+    <string name="sort_title">Ordenação</string>
+    <string name="sort_by_title">Por título</string>
+    <string name="sort_by_grade">Por grau (maior primeiro)</string>
+    <string name="sort_by_date">Por data (mais recente)</string>
+    <string name="empty_folders">Ainda não tens coleções.\nToca em + para criar a primeira pasta.</string>
+    <string name="empty_comics">Esta coleção ainda não tem exemplares.\nToca em + para adicionar o primeiro.</string>
+    <string name="empty_filtered">Nenhum exemplar corresponde à pesquisa ou aos filtros.\nLimpa a pesquisa ou escolhe «Todas as editoras» / «Todos os graus».</string>
+    <string name="comic_issue_publisher">#%1$s · %2$s</string>
+    <string name="comic_list_item_cd">%1$s, número %2$s, editora %3$s, grau %4$s</string>
+    <string name="folder_list_item_cd">Coleção %1$s, autores %2$s, %3$s</string>
+    <plurals name="comic_count">
+        <item quantity="one">%d exemplar</item>
+        <item quantity="other">%d exemplares</item>
+    </plurals>
+
+    <!-- Campos -->
+    <string name="label_folder_name">Nome da coleção</string>
+    <string name="label_authors">Autores</string>
+    <string name="label_title">Título</string>
+    <string name="label_publisher">Editora</string>
+    <string name="label_issue">Número / edição</string>
+    <string name="label_grade">Grau de conservação</string>
+    <string name="label_acquisition_date">Data de aquisição</string>
+    <string name="label_notes">Notas</string>
+    <string name="label_certification">Certificação</string>
+    <string name="hint_certification">Ex.: CGC 9.8, CBCS…</string>
+    <string name="no_notes">Sem notas</string>
+    <string name="no_certification">Sem certificação</string>
+
+    <!-- Ecrãs -->
+    <string name="title_detail">Exemplar</string>
+    <string name="title_new">Novo exemplar</string>
+    <string name="title_edit">Editar exemplar</string>
+    <string name="title_new_folder">Nova coleção</string>
+    <string name="title_edit_folder">Editar coleção</string>
+    <string name="title_stats">Estatísticas</string>
+
+    <!-- Mensagens -->
+    <string name="folder_saved">Coleção guardada</string>
+    <string name="folder_deleted">Coleção eliminada</string>
+    <string name="folder_not_found">Esta coleção já não existe.</string>
+    <string name="comic_saved">Exemplar guardado</string>
+    <string name="comic_deleted">Exemplar eliminado</string>
+    <string name="comic_not_found">Este exemplar já não existe.</string>
+    <string name="delete_title">Eliminar exemplar?</string>
+    <string name="delete_message">«%1$s» #%2$s será removido da coleção. Esta ação não pode ser anulada.</string>
+    <string name="delete_folder_title">Eliminar coleção?</string>
+    <string name="delete_folder_message">«%1$s» e todos os seus exemplares serão removidos. Esta ação não pode ser anulada.</string>
+    <string name="discard_title">Descartar alterações?</string>
+    <string name="discard_message">Há alterações por gravar. Se saíres agora, perdem-se.</string>
+    <string name="export_subject">Coleção «%1$s»</string>
+    <string name="export_chooser">Exportar CSV</string>
+    <string name="export_empty">Não há exemplares para exportar.</string>
+    <string name="export_failed">Não foi possível exportar. Tenta novamente.</string>
+
+    <!-- Erros -->
+    <string name="error_required">Campo obrigatório</string>
+    <plurals name="error_too_long">
+        <item quantity="one">Máximo de %1$d carácter</item>
+        <item quantity="other">Máximo de %1$d caracteres</item>
+    </plurals>
+    <string name="error_future_date">A data não pode ser posterior a hoje</string>
+    <string name="error_grade_range">O grau tem de estar entre 1 e 10</string>
+    <string name="error_image">Não foi possível carregar a imagem.</string>
+    <string name="error_save">Não foi possível guardar. Tenta novamente.</string>
+    <string name="error_delete">Não foi possível eliminar. Tenta novamente.</string>
+
+    <!-- Estatísticas -->
+    <string name="stats_average">Grau médio: %1$s</string>
+    <string name="stats_by_publisher">Por editora</string>
+    <string name="stats_by_grade">Por grau</string>
+    <string name="grade_bucket">%1$d</string>
+
+    <!-- Acessibilidade -->
+    <string name="cd_cover">Capa do exemplar</string>
+    <string name="cd_folder_cover">Capa da coleção</string>
+    <string name="cd_grade">Grau %1$s</string>
+    <string name="cd_stat_bar">%1$s: %2$d</string>
+    <string name="cd_sort_chip">Ordenação da lista</string>
+</resources>
+

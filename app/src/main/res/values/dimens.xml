@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- 48dp: tamanho mínimo de toque recomendado pelas guidelines de acessibilidade. -->
+    <dimen name="min_touch_target">48dp</dimen>
+    <dimen name="cover_thumb_width">48dp</dimen>
+    <dimen name="cover_thumb_height">68dp</dimen>
+    <dimen name="cover_detail_height">240dp</dimen>
+    <dimen name="cover_edit_width">72dp</dimen>
+    <dimen name="cover_edit_height">104dp</dimen>
+    <dimen name="stat_label_width">96dp</dimen>
+</resources>

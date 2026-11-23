@@ -1,0 +1,4 @@
+<resources>
+    <!-- Número de colunas da lista; aumenta em ecrãs mais largos. -->
+    <integer name="comic_grid_span">1</integer>
+</resources>

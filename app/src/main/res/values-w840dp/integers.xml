@@ -1,0 +1,3 @@
+<resources>
+    <integer name="comic_grid_span">3</integer>
+</resources>

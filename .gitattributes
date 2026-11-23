@@ -1,0 +1,16 @@
+# Line endings: LF no repositório; no Windows o checkout ajusta ficheiros de texto.
+* text=auto eol=lf
+
+# Scripts Gradle / wrapper Windows precisam de CRLF.
+*.bat text eol=crlf
+gradlew.bat text eol=crlf
+
+# Binários
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.otf binary

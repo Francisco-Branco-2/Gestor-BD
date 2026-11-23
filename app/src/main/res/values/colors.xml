@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#B3261E</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_primary_container">#FFDAD5</color>
+    <color name="brand_on_primary_container">#410001</color>
+    <color name="launcher_background">#B3261E</color>
+</resources>
